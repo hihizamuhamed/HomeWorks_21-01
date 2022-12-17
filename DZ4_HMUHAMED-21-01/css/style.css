@@ -1,0 +1,88 @@
+*{
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(226, 207, 255);
+}
+
+/* Создать некий счетчик. В HTML две кнопки (increment, decrement) или ("-", "+") */
+/*
+.wrapper{
+    height: 120px;
+    min-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    user-select: none;
+}
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.wrapper span.num{
+    font-size: 50px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+*/
+
+/* 2) Создать блок 500 на 500 с бордером. Внутри которого будет отлавливаться координаты курсора как на уроке.  */
+/*
+.wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid #000;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(93, 255, 120);
+}
+*/
+
+/* 3 Дз */
+/*
+.container{
+    background-color: rgb(12, 0, 117);
+    height: 200px;
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 ;
+    flex-direction: column;
+}
+.circle {
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circle.red{
+    background-color:red;
+    box-shadow:0 0 30px red;
+}
+.circle.yellow{
+    background-color:yellow;
+    box-shadow:0 0 30px yellow;
+}
+.circle.green{
+    background-color:green;
+    box-shadow:0 0 30px green;
+}
+*/
